@@ -1,0 +1,83 @@
+@import "../../../css/common";
+.prize-container{
+  padding-top: 30/@rem;
+  .prize-list-container{
+    .prize-item{
+      position: relative;
+      margin: 0 auto;
+      width: 722/@rem;
+      height: 308/@rem;
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      .prize-name{
+        position: absolute;
+        top: 54/@rem;
+        left: 122/@rem;
+        display: block;
+        line-height: 1;
+        font-size:36/@rem;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+      }
+      .prize-num{
+        font-size:80/@rem;
+        font-weight:500;
+        color:rgba(255,255,255,1);
+        position: absolute;
+        bottom: 116/@rem;
+        right: 66/@rem;
+        display: block;
+        line-height: 1;
+      }
+      .description{
+        position: absolute;
+        right: 66/@rem;
+        bottom: 64/@rem;
+        font-size:24/@rem;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+      }
+      .unit{
+        font-size:34/@rem;
+        font-weight:400;
+        color:rgba(255,255,255,1);
+        margin-left: 10/@rem;
+      }
+      .selected-icon{
+        width: 70/@rem;
+        height: 70/@rem;
+        display: block;
+        position: absolute;
+        right: 26/@rem;
+        bottom: 24/@rem;
+        background: url("//cdn.51talk.com/apollo/images/5b4d5f15a178344f0d1c1918c1c38353.png") no-repeat;
+        background-size: 100% 100%;
+      }
+    }
+  }
+  .btn-container{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid #E3E3E3;
+    width: 100%;
+    height: 112/@rem;
+    >.confirm-btn{
+      width: 580/@rem;
+      height: 88/@rem;
+      line-height: 88/@rem;
+      text-align: center;
+      background:rgba(227,227,227,1);
+      border-radius:44/@rem;
+      font-size:32/@rem;
+      font-weight:500;
+      color:rgba(153,153,153,1);
+      margin: 12/@rem auto;
+    }
+    >.selected{
+      background:rgba(255,232,60,1);
+      color:rgba(83,68,64,1);
+    }
+  }
+}
