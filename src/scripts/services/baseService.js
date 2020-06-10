@@ -6,7 +6,7 @@ const apiConf = require("../config/apiConf");
  * service基类
  * @class
  */
-export class BaseService {
+export default class BaseService {
 
   /**
    * 构造器
