@@ -2,16 +2,14 @@
   "name": "freedom-template-mobilevue",
   "version": "1.0.0",
   "description": "移动端vue工程模板",
-  "scripts": {
-  },
+  "scripts": {},
   "author": "51Talk freedom design team",
   "license": "MIT",
   "devDependencies": {
     "axios": "^0.18.0",
     "jsonp": "^0.2.1",
+    "string-format": "^2.0.0",
     "vue-property-decorator": "^6.0.0"
   },
-  "dependencies": {
-    
-  }
+  "dependencies": {}
 }
