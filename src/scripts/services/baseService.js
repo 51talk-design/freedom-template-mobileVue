@@ -93,7 +93,7 @@ export class BaseService {
     //简单正则，判断是否是完整的url，如果是完整的url，则直接返回
     let regExp = /^\/api\/.*/gi;
     if (regExp.test(urlKey)) return `${urlKey}`;
-    return `/${apiConf[urlKey]}`;
+    return `${apiConf[urlKey]}`;
   }
   /**
    * 获取请求api完整的地址
